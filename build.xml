@@ -8,10 +8,6 @@
     <mkdir dir="${blddir}" />
     <mkdir dir="${classdir}" />
   </target>
-''
-  slad
-  ;;
-  sad'';s
   <target name="compile" depends="init">
     <javac
       srcdir="src"
